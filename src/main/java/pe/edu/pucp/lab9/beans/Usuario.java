@@ -7,25 +7,29 @@ public class Usuario {
     private String rol;
 }
 
-    public int getId() {
-        return id;
-    }
+public int getId() {
+    return id;
+}
 
-    public void setId(int id){
-        this.id = id;
-    }
+public void setId(int id){
+    this.id = id;
+}
 
-    public String getNombres(){
-        return nombres;
-    }
+public String getNombres(){
+    return nombres;
+}
 
-    public String getApellido(){
-        return Apellidos;
-    }
+public void setNombres(String nombres){
+    this.nombres = nombres;
+}
 
-    public void setApellido(String Apellidos){
-        this.Apellidos = Apellidos;
-    }
+public String getApellido(){
+    return Apellidos;
+}
+
+public void setApellido(String Apellidos){
+    this.Apellidos = Apellidos;
+}
 
 public String getRol(){
     return rol;
